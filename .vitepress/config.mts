@@ -255,7 +255,14 @@ export default defineConfig({
             next: '下一页',
         },
 
-        nav: generateNav({ source: 'src', excludeDirs: ['@pages', 'public', 'images'] }) /*[
+        nav: generateNav({ source: 'src', excludeDirs: ['@pages', 'public', 'images'] }).concat({
+            text: '👏索引',
+            items: [
+                { text: '分类', link: '/categories' },
+                { text: '标签', link: '/tags' },
+                { text: '归档', link: '/archives' },
+            ],
+        }) /*[
             {
                 text: '🏡首页',
                 link: '/',

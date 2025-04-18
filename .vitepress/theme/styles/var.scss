@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* 鼠标样式 */
 body {
   cursor: url(/mouse/default.cur), auto;
@@ -60,5 +62,17 @@ span {
   .tk-my__avatar {
     min-height: 150px;
     aspect-ratio: 4/3; /* 移动端调整容器比例 */
+  }
+}
+
+.tk-banner-waves {
+  z-index: 0;
+}
+
+html[class="dark"] {
+  @for $i from 1 to 5 {
+    .tk-banner-waves .parallax .use:nth-child(#{$i}) {
+      fill: var(--tk-lower-color-2);
+    }
   }
 }
