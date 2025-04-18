@@ -1,0 +1,64 @@
+/* 鼠标样式 */
+body {
+  cursor: url(/mouse/default.cur), auto;
+}
+
+a,
+button,
+img,
+svg,
+input,
+textarea,
+select,
+option,
+label,
+span {
+  cursor: url(/mouse/pointer.cur), auto !important;
+}
+
+// 侧边栏目录最外侧竖线
+.group:has([role="button"]) .VPSidebarItem.level-0 .items {
+  padding-left: 16px !important;
+  border-left: 1px solid var(--vp-c-divider);
+  border-radius: 2px;
+  transition: background-color 0.25s;
+}
+
+//给头像加一个背景图片
+.tk-my__avatar .tk-avatar {
+  width: 120px; /* 固定宽度 */
+  height: auto; /* 高度自适应保持比例 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  aspect-ratio: 1/1; /* 强制1:1宽高比 */
+  object-fit: cover; /* 保持图片填充不变形 */
+}
+
+.tk-my__avatar {
+  position: relative;
+  background-image: url("/banner/14.webp");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 200px; /* 适当增加容器高度 */
+  aspect-ratio: 16/9; /* 容器宽高比 */
+}
+.tk-avatar img {
+  border-radius: 50%;
+}
+// 移动端适配
+@media (max-width: 768px) {
+  .tk-my__avatar .tk-avatar {
+    width: 80px; /* 缩小尺寸 */
+    height: auto;
+  }
+  .tk-my__avatar {
+    min-height: 150px;
+    aspect-ratio: 4/3; /* 移动端调整容器比例 */
+  }
+}
