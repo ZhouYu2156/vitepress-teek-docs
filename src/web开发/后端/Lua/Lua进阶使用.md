@@ -6,6 +6,7 @@ categories:
   - web开发
   - 后端
   - Lua
-coverImg: /banner/2.webp
+coverImg: /banner/3.webp
+description: 讲解Lua语言的进阶使用
 ---
 

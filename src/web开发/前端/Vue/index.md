@@ -6,6 +6,8 @@ categories:
   - web开发
   - 前端
   - Vue
+coverImg: /banner/5.webp
+description: 讲解Vue的快速上手
 ---
 
 # Vue快速入门

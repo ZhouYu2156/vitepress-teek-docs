@@ -79,7 +79,7 @@ const teekConfig = defineTeekConfig({
             expandTitle: '打赏支持', // 展开标题，支持 HTML
             collapseTitle: '下次一定', // 折叠标题，支持 HTML
             // content: `<img src='/img/alipay/1.png'>`, // 赞赏内容，支持 HTML
-            content: `<img src='/social-icons/wechat-QR.jpg'><img src='/social-icons/zfb-QR.jpg'>`, // 赞赏内容，支持 HTML
+            content: `<img src='/vitepress-teek-docs/social-icons/wechat-QR.jpg'><img src='/vitepress-teek-docs/social-icons/zfb-QR.jpg'>`, // 赞赏内容，支持 HTML
             expand: true, // 是否默认展开，默认 false
         },
     },
