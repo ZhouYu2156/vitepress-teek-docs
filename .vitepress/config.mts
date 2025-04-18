@@ -236,7 +236,7 @@ export default defineConfig({
             warningLabel: '警告',
             dangerLabel: '危险',
             infoLabel: '信息',
-            detailsLabel: '详细信息',
+            detailsLabel: '详情',
         },
     },
     themeConfig: {
@@ -288,7 +288,28 @@ export default defineConfig({
         socialLinks: [{ icon: 'github', link: 'https://github.com/ZhouYu2156' }],
 
         search: {
+            /**
+             * 本地搜索配置
+             */
             provider: 'local',
+            options: {
+                translations: {
+                    button: {
+                        buttonText: '搜索文档',
+                        buttonAriaLabel: '搜索文档',
+                    },
+                    modal: {
+                        noResultsText: '无法找到相关结果',
+                        resetButtonTitle: '清除查询条件',
+                        displayDetails: '显示详情列表',
+                        footer: {
+                            selectText: '选择',
+                            navigateText: '切换',
+                            closeText: '关闭',
+                        },
+                    },
+                },
+            },
         },
         editLink: {
             text: '在 GitHub 上编辑此页',
@@ -312,7 +333,7 @@ export default defineConfig({
         ],
         //其他配置项
         build: {
-            chunkSizeWarningLimit: 35000, // 限制警告的块大小
+            chunkSizeWarningLimit: 1024 * 5, // 限制警告的块大小
             rollupOptions: {
                 external: ['**/_*.md'], // 忽略所有以下划线开头的 Markdown 文件
             },
