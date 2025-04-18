@@ -132,7 +132,8 @@ export default defineConfig({
     cleanUrls: true,
     base: '/vitepress-teek-docs/',
     lastUpdated: true,
-    srcDir: 'src',
+    srcDir: './src',
+    outDir: './dist',
     lang: 'zh-CN',
     head: [
         ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
