@@ -137,7 +137,7 @@ export default defineConfig({
     lang: 'zh-CN',
     head: [
         ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
-        ['link', { rel: 'icon', href: '/rabbit.svg', type: 'image/svg' }],
+        ['link', { rel: 'icon', href: '/rabbit.svg', type: 'image/svg+xml' }],
         // ["link", { rel: "icon", type: "image/svg+xml", href: "/teek-logo-mini.svg" }],
         // ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
         ['meta', { property: 'og:type', content: 'website' }],

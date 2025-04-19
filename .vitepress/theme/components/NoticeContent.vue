@@ -5,7 +5,7 @@ const namespace = "notice";
 <template>
   <div :class="namespace">
     <p>微信 👇</p>
-    <img src="/social-icons/wechat.png" alt="QR Code" />
+    <img src="/vitepress-teek-docs/social-icons/wechat.png" alt="QR Code" />
     <p class="">有任何事情可以添加本人微信留言~</p>
   </div>
 </template>
