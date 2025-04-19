@@ -137,7 +137,7 @@ export default defineConfig({
     lang: 'zh-CN',
     head: [
         ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
-        ['link', { rel: 'icon', href: '/rabbit.svg', type: 'image/svg+xml' }],
+        ['link', { rel: 'icon', href: '/rabbit.svg', type: 'image/png' }],
         // ["link", { rel: "icon", type: "image/svg+xml", href: "/teek-logo-mini.svg" }],
         // ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
         ['meta', { property: 'og:type', content: 'website' }],
@@ -256,7 +256,7 @@ export default defineConfig({
         },
 
         nav: generateNav({ source: 'src', excludeDirs: ['@pages', 'public', 'images'] }).concat({
-            text: '👏索引',
+            text: '索引',
             items: [
                 { text: '分类', link: '/categories' },
                 { text: '标签', link: '/tags' },

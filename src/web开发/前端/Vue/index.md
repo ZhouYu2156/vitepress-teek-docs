@@ -8,6 +8,7 @@ categories:
   - Vue
 coverImg: /banner/5.webp
 description: 讲解Vue的快速上手
+article: false
 ---
 
 # Vue快速入门

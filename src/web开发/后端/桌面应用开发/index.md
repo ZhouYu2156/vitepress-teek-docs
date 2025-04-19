@@ -12,10 +12,9 @@ head:
 footer: false
 permalink: /pages/75a1df
 categories:
-  - "\U0001F4BB️ web开发"
-  - 后端
+  - web开发
   - 桌面应用开发
-coverImg: /screenshots/nodejs/Electron安装踩坑经验总结.png
+coverImg: /screenshots/Nodejs/Electron安装踩坑经验总结.png
 top: true
 sticky: 5
 description: 全网最全最新 electron 项目环境搭建方式与踩坑经验分享

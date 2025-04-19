@@ -3,10 +3,10 @@ date: 2025-04-19 23:19:49
 title: 从零配置Linux与Windows互通的开发环境
 permalink: /pages/e47200
 categories:
-  - "\U0001F4BB️ web开发"
+  - web开发
   - 开发者工具
   - VSCode
-coverImg: /screenshots/开发者工具/搭建linux开发环境.png
+coverImg: /screenshots/VSCode/搭建linux开发环境.png
 top: true
 sticky: 3
 description: 从零打造 Linux 和 Windows 互通的开发环境

@@ -19,10 +19,10 @@ categories:
   - "\U0001F4BB️ web开发"
   - 后端
   - Nodejs
-coverImg: /screenshots/nodejs安装/nodejs官网.png
+coverImg: /screenshots/Nodejs/nodejs官网.png
 top: true
 sticky: 4
-description: windows版安装和配置Nodejs保姆级教程，学不会我吃**
+description: windows版安装和配置Nodejs保姆级详细教程
 ---
 
 # Nodejs 安装教程
@@ -35,7 +35,7 @@ description: windows版安装和配置Nodejs保姆级教程，学不会我吃**
 一直点击下一步安装完即可（可以选择自行选择安装路径）。
 :::
 
-![nodejs官网](/screenshots/nodejs安装/nodejs官网.png)
+![nodejs官网](/screenshots/Nodejs/nodejs官网.png)
 
 - 安装完成后，打开`cmd`，输入`node -v`，如果显示版本号，则安装成功。
 
@@ -61,7 +61,7 @@ mkdir -p node_global/node_modules node_cache
 
 设置`nodejs`安装目录权限，右键点击`nodejs`安装目录，选择`属性`，在`安全`选项卡中，点击`编辑`，在`组或用户名`中选择`Users`，点击`编辑`，在`权限`中勾选`完全控制`，点击`确定`。
 
-![设置nodejs安装目录权限](/screenshots/nodejs安装/设置nodejs安装目录权限.png)
+![设置nodejs安装目录权限](/screenshots/Nodejs/设置nodejs安装目录权限.png)
 
 ### 3. 设置`nodejs`的全局和缓存存放路径
 
@@ -74,11 +74,11 @@ npm config set cache "E:\enviroments\nodejs\node_cache"
 
 > 打开系统设置，在`系统变量`中`新建`NODE_PATH`变量，值为`E:\enviroments\nodejs\node_global\node_modules`。
 
-![设置NODE_PATH系统环境变量](/screenshots/nodejs安装/设置NODE_PATH变量.png)
+![设置NODE_PATH系统环境变量](/screenshots/Nodejs/设置NODE_PATH变量.png)
 
 > 继续设置`系统变量`中的`PATH`变量，在`变量值`中添加`E:\enviroments\nodejs\`和`%NODE_PATH%`。
 
-![新增PATH路径和NODE_PATH系统路径](/screenshots/nodejs安装/新增PATH系统路径.png)
+![新增PATH路径和NODE_PATH系统路径](/screenshots/Nodejs/新增PATH系统路径.png)
 
 ### 5. 设置`用户变量`的`PATH`变量
 
@@ -90,11 +90,11 @@ npm config set cache "E:\enviroments\nodejs\node_cache"
 
 :warning: 找到下面这个`用户变量`块中的`PATH`变量的值
 
-![将要修改的路径](/screenshots/nodejs安装/将要修改的路径.png)
+![将要修改的路径](/screenshots/Nodejs/将要修改的路径.png)
 
 修改如下，注意是`用户变量`块下的`PATH`变量，而不是`系统变量`块下的`PATH`变量。
 
-![修改后的路径](/screenshots/nodejs安装/设置npm全局安装路径的值.png)
+![修改后的路径](/screenshots/Nodejs/设置npm全局安装路径的值.png)
 
 ## 三、验证设置
 
@@ -115,7 +115,7 @@ $ npm config get cache
 $ npm install -g express
 ```
 
-![全局安装包检查配置是否生效](/screenshots/nodejs安装/全局安装包检查配置是否生效.png)
+![全局安装包检查配置是否生效](/screenshots/Nodejs/全局安装包检查配置是否生效.png)
 
 ::: tip 提示
 全局安装包能够存放在`E:\enviroments\nodejs\node_global\node_modules`目录下，则说明配置成功了。
