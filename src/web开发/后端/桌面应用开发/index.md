@@ -12,7 +12,8 @@ head:
 footer: false
 permalink: /pages/75a1df
 categories:
-  - web开发
+  - 后端
+tags:
   - 桌面应用开发
 coverImg: /screenshots/Nodejs/Electron安装踩坑经验总结.png
 top: true

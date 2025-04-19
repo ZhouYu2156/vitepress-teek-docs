@@ -2,11 +2,10 @@
 date: 2025-04-19 07:24:14
 title: Lua语言快速入门
 categories:
-  - web开发
-tags:
   - 后端
+tags:
   - Lua
-description: Lua 是一款轻量级、高效灵活、跨平台的多范式编程语言。
+description: Lua 是一款轻量级、高效灵活、跨平台的多范式编程语言
 coverImg: /banner/1.webp
 permalink: /pages/e7b99e
 ---

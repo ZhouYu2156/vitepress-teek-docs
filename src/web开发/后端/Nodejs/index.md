@@ -16,8 +16,8 @@ head:
       content: 保姆级Nodejs安装和配置教程
 permalink: /pages/b609ed
 categories:
-  - "\U0001F4BB️ web开发"
   - 后端
+tags:
   - Nodejs
 coverImg: /screenshots/Nodejs/nodejs官网.png
 top: true

@@ -5,7 +5,7 @@ categories:
   - 后端
 tags:
   - C++
-description: C++是一种静态类型的中级语言，综合了高级语言和低级语言的特点。
+description: C++是一种静态类型的中级语言，综合了高级语言和低级语言的特点
 coverImg: /banner/8.webp
 permalink: /pages/2aeaba
 ---
