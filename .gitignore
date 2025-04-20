@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 cache
+upload.sh
 dist
 .DS_Store
 dist
