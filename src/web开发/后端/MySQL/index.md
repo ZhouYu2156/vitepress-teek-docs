@@ -978,8 +978,6 @@ alter table 表名 add constraint 外键名称
 
 多表查询分类：
 
-![](./images/多表查询图演示.png)
-
 -   连接查询
 
     -   内连接：相当于查询 A、B 交集部分数据
