@@ -1,7 +1,7 @@
 ---
-date: 2025-04-20 23:05:32
-title: DRF
-permalink: /pages/b88cf1
+date: 2025-04-21 00:50:31
+title: RestFramework
+permalink: /pages/baaa17
 categories:
   - web开发
   - 后端
@@ -19,7 +19,7 @@ categories:
 -   推荐 3：[深入理解什么是 Restful 规范](https://www.imooc.com/article/304756)
     :::
 
-![drf-tutorial](./images/drf-tutorial.png)
+![drf-tutorial](/screenshots/Python/drf-tutorial.png)
 
 ## Restful API 最佳实践
 
@@ -245,7 +245,7 @@ urlpatterns = [
 
 ## DRF 组件模块
 
-![DRF进阶与实战](./images/DRF进阶与实战.png)
+![DRF进阶与实战](/screenshots/Python/DRF进阶与实战.png)
 
 ## 创建模型
 

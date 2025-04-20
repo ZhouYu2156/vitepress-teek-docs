@@ -1,3 +1,13 @@
+---
+date: 2025-04-20 23:07:19
+title: index
+permalink: /pages/0a9104
+categories:
+  - web开发
+  - 后端
+  - MySQL
+---
+
 # MySQL 数据库
 
 ## 基础篇
