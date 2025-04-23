@@ -1,3 +1,13 @@
+---
+date: 2025-04-23 01:00:31
+title: index
+permalink: /pages/9923de
+categories:
+  - web开发
+  - 后端
+  - MongoDB
+---
+
 # MongoDB 快速入门
 
 ## 安装
